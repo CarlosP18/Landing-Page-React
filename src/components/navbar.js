@@ -17,12 +17,12 @@ const NavItem = () => {
 
 export const NavBar = (props) => {
     return(
-        <nav className="navbar navbar-dark sitcky-top navbar-expand-lg">
+        <nav className="navbar navbar-dark bg-dark sitcky-top navbar-expand-lg">
             <div className="container">
                 <a className="navbar-brand ml-3" href="#">{props.logo}</a>
                 <button className="navbar-toggler" type="button" data-toggle="Collapse" data-target="navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav">
